@@ -27,9 +27,27 @@ This project allows users to create, view, complete, and delete tasks while stor
 - Git / GitHub
 
 ## Usage
-
+### Add a task
+```bash
+python main.py add "Learn Python"
+```
+### Complete a task
+```bash
+python main.py complete 1
+```
+### Delete a task
+```bash
+python main.py delete 1
+```
+### Show help
+```bash
+python main.py --help
+```
+### Testing
+```bash
+python -m mypy main.py
+```
 
 ### View tasks
-
 ```bash
 python main.py view
